@@ -80,18 +80,11 @@ Incorrectly classified images show substantially higher uncertainty, confirming 
 - `fig4_accuracy_vs_mc_samples.png` — accuracy as a function of the number of MC samples.
 - `fig5_most_uncertain_samples.png` — the ten most uncertain test images with predictions and uncertainty values.
 
-## Publish to GitHub
+## GitHub Repository
 
-The local repository is already initialised. To publish it so the report can include a working source-code link, create a new empty public repository on GitHub named `cisc3024-ai-assignment2-bayesian-cnn` under your own account, then run:
+The source code is publicly available at:
 
-```bash
-cd "C:/Users/Temp1e/WorkBuddy AI/CISC3024"
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/cisc3024-ai-assignment2-bayesian-cnn.git
-git branch -M main
-git push -u origin main
-```
-
-Replace `YOUR_GITHUB_USERNAME` with your actual GitHub username. After pushing, update the GitHub link in the report if your username is not `chehongcheng`.
+**https://github.com/7emp1e/cisc3024-ai-assignment2-bayesian-cnn**
 
 ## References
 

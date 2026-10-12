@@ -411,11 +411,10 @@ add_paragraph_text(doc,
     "The repository contains the full implementation (src/bayesian_cnn_mc_dropout.py), a README file, "
     "requirements.txt, generated figures, and the trained model weights.")
 add_paragraph_text(doc,
-    "GitHub repository: https://github.com/chehongcheng/cisc3024-ai-assignment2-bayesian-cnn",
+    "GitHub repository: https://github.com/7emp1e/cisc3024-ai-assignment2-bayesian-cnn",
     alignment=WD_ALIGN_PARAGRAPH.LEFT)
 add_paragraph_text(doc,
-    "Note: the repository should be created under the student's own GitHub account and the local code "
-    "pushed to the remote. The link above uses the intended repository path.")
+    "The repository is publicly accessible and contains all source code, figures, and results.")
 
 # ----------------------------------------------------------------------------
 # References
