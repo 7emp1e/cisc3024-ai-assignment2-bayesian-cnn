@@ -1,0 +1,37 @@
+{
+  "student": "CHE HONG CHENG",
+  "student_id": "UC426773",
+  "course": "CISC3024 Pattern Recognition",
+  "algorithm": "Bayesian CNN with Monte Carlo Dropout",
+  "reference": "Gal & Ghahramani (2016)",
+  "dataset": "MNIST (60000 train / 10000 test)",
+  "architecture": "Conv(1->32,3x3)->ReLU->MaxPool(2) | Conv(32->64,3x3)->ReLU->MaxPool(2) | Flatten(1600)->Dropout(0.5)->FC(1600->128)->ReLU->Dropout(0.5)->FC(128->10)",
+  "hyperparameters": {
+    "epochs": 10,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "dropout_rate": 0.5,
+    "mc_samples": 50,
+    "optimizer": "Adam"
+  },
+  "results": {
+    "test_accuracy": 0.9925,
+    "correct_count": 9925,
+    "total_count": 10000,
+    "training_time_sec": 163.8,
+    "evaluation_time_sec": 32.0,
+    "num_parameters": 225034,
+    "mean_predictive_entropy_correct": 0.07174623012542725,
+    "mean_predictive_entropy_incorrect": 0.9721840620040894,
+    "mean_mi_correct": 0.032998986542224884,
+    "mean_mi_incorrect": 0.43954503536224365,
+    "accuracy_vs_mc_samples": {
+      "1": 0.9831,
+      "5": 0.9908,
+      "10": 0.9929,
+      "20": 0.9926,
+      "30": 0.9932,
+      "50": 0.993
+    }
+  }
+}
